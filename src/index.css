@@ -1,0 +1,24 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{background-color: rgb(212, 204, 204);}
+.form{display: flex; width: 50%;align-items: center; justify-content: center; margin:0 auto; margin-top: 100px;}
+.input{display: flex;  width: 70%; align-items: center;}
+ input{padding: 10px; width: 90%;border: none; outline: none;}
+ select{padding: 10px; border: none; outline: none; width: 30%;}
+ .add{background-color: lawngreen;}
+.container{max-width: 960px; margin:0 auto; position: relative; margin-top: 0%; height: 100vh;}
+.todo{width: 50%; display: flex;align-items: center;justify-content: space-between; margin: 0 auto;background-color: white; margin-top: 10px; padding: 5px;}
+.check{ color: green; border-radius: 5px; margin: 2px;}
+.delete{ color:red; border-radius: 5px; margin: 2px;}
+.todo-items{margin-top: 100px;}
+.completed{text-decoration: line-through; font-style: italic; font-size: 14px; color:violet;}
+.header{display: flex; justify-content: space-between; align-items: center; background-color:white;padding: 10px; border-radius: 10px;}
+.header h1{color:lawngreen;}
+.footer{display: flex; justify-content: center; align-items: center;}
+.home{color: lawngreen;}
+@media screen and (max-width:600px){
+    .container{padding: 10px;}
+    .form{width: 100%;}
+    input{border-radius: 5px 0px 0px 5px;}
+    select{border-radius: 0px 5px 5px 0px;}
+    .todo{width: 100%; border-radius: 10px;}
+}
